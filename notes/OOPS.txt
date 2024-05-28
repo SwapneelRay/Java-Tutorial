@@ -1,0 +1,5 @@
+object oriented programings
+inheritance - IS-A relationship
+polymorphism - overloading & overriding
+abstraction - process of hiding the implementation
+Encapsulation - process of wrapping code into single unit.
