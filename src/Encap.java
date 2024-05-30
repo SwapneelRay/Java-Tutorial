@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class AreaCalc{
 
     public float circleArea(float r){
@@ -16,11 +18,13 @@ class AreaCalc{
     }
 }
 
-public class Encapsulation extends AreaCalc {
 
+public class Encap {
+    public static void main(String[] args) {
     AreaCalc ar = new AreaCalc();
-    float area = ar.squareArea(5f);
-    AreaCalc areaCalc = new AreaCalc();
-    
-    
+    Scanner sc = new Scanner(System.in);
+    float area = ar.squareArea(sc.nextFloat());
+    //ar.squareArea(6f);
+    ar.display(area);
+    }
 }
