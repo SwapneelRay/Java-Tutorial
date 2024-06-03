@@ -6,5 +6,6 @@ public class Character {
         Scanner sc= new Scanner(System.in);
         char option = sc.next().charAt(033);// swapneel
         System.out.println(option);
+        
     }
 }
